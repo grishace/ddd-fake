@@ -1,5 +1,5 @@
 - title : FAKE It Until You Make It
-- description : FAKE It Until You Make It. Denver Dev Day (October 19, 2018)
+- description : FAKE It Until You Make It. Denver Dev Day (May 31, 2019)
 - author : Grigoriy Belenkiy
 - theme : simple
 - transition : convex
