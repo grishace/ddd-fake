@@ -18,9 +18,14 @@ Target.create "Clean" (fun _ ->
     |> Shell.cleanDirs
 )
 
+// Recent FAKE change - initializing environment before any targets
+Target.initEnvironment()
+// Get build configuration from the environment
+let buildConfigutation = DotNet.BuildConfiguration.fromEnvironVarOrDefault "BuildConfiguration" DotNet.BuildConfiguration.Debug
+
 Target.create "Build" (fun _ ->
     !! "hello/**/*.*proj"
-    |> Seq.iter (DotNet.build id)
+    |> Seq.iter (DotNet.build (fun b -> { b with Configuration = buildConfigutation }))
 )
 
 Target.create "All" ignore
@@ -30,4 +35,4 @@ Target.create "All" ignore
   ==> "Build"
   ==> "All"
 
-Target.runOrDefaultWithArguments "Default"
+Target.runOrDefault "Default"
