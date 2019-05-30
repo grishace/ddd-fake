@@ -5,7 +5,7 @@
 - transition : convex
 
 ***
-- data-background :
+- data-background : ./images/sponsors-slide.png
 - data-background-transition : none
 
 ' Sponsors slide (required by organizators)
