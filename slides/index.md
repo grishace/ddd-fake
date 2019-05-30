@@ -33,7 +33,8 @@ May 31, 2019</small>
 ' 4. Demo - Hello, World! fake run + positioned cli options  (fake, vs run vs script)
 ' 5. Anatomy of the build script - targets, globbing, run dotnet, ANYTHING you want to code
 ' 6. Demo - fake build (simple clean + restore + build + run), Docopt || Argu?
-' 7. Q&A time permitting
+' 7. Azure pipeline - FAKE run task, ArmHelper (paket - load the source form the GitHub)
+' 8. Q&A time permitting
 
 ***
 
