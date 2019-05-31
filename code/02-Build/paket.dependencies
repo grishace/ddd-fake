@@ -11,3 +11,5 @@ group Build
     nuget Fake.DotNet.Cli
     nuget Fake.IO.FileSystem
     nuget Fake.Core.Target
+    // If you don't want to create "string" targets and dependency tree
+    // nuget BlackFox.Fake.BuildTask
