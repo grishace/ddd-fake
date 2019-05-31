@@ -83,9 +83,14 @@ Hello, World! (again)
 
 ### Bonus - ARM Helper
 
-    github CompositionalIT/fshelpers src/FsHelpers/ArmHelper/ArmHelper.fs
-    ...
-    #load "paket-files/build/CompositionalIT/fshelpers/src/FsHelpers/ArmHelper/ArmHelper.fs"
+<small>
+```
+github CompositionalIT/fshelpers src/FsHelpers/ArmHelper/ArmHelper.fs
+...
+#load "paket-files/build/CompositionalIT/fshelpers/src/FsHelpers/
+       ArmHelper/ArmHelper.fs"
+```
+</small>
 
 ***
 
