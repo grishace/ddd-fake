@@ -37,7 +37,7 @@ May 31, 2019</small>
 
 ### FAKE = F# Make
 
-* Code your build with gazillion of helper functions
+* Code your build with a gazillion helper functions
 * Not limited to the build - can run FSX script
 * Global dotnet tool
 
